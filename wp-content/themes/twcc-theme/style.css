@@ -562,7 +562,7 @@ a.more-link:hover {
 }
 .hgroup-right {
 	float: right;
-	margin-top: 38px;
+	margin-top: 14px;
 }
 
 /* Social Profiles */
@@ -666,8 +666,10 @@ a.more-link:hover {
 /* =Menu
 -------------------------------------------------------------- */
 #access {
-	border-top: 1px solid #EAEAEA;
-	border-bottom: 1px solid #EAEAEA;
+	/*border-top: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;*/
+	float: right;
+    clear: right;
 }
 #access ul {
 
