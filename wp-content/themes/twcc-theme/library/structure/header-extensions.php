@@ -267,7 +267,7 @@ function attitude_headerdetails() {
 			if( !empty( $header_image ) ) :?>
 				<img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 			<?php endif; ?>	
-		
+	 		
 		<?php	
 		if( 'above-slider' == $options[ 'slogan_position' ] &&  ( is_home() || is_front_page() ) ) 
 			if( function_exists( 'attitude_home_slogan' ) )

@@ -528,11 +528,13 @@ a.more-link:hover {
 /* =Header
 ----------------------------------------------- */
 #branding {
-	margin-top: 30px;	
+	/* commented out by Brian
+	margin-top: 30px;	*/
 }
 .hgroup-wrap {
-	padding-top: 20px;
-	padding-bottom: 51px;
+	/*Commented out by Brian
+	padding-top: 20px;*/
+	padding-bottom: 20px;
 }
 .hgroup-wrap a {
 	display: block;
@@ -670,6 +672,7 @@ a.more-link:hover {
 	border-bottom: 1px solid #EAEAEA;*/
 	float: right;
     clear: right;
+    padding-top:8px;
 }
 #access ul {
 
@@ -787,7 +790,8 @@ li.default-menu {
 .slogan-wrap {	
 	font-family: 'Philosopher', sans-serif;
 	background-color: #05a9c5;	
-	padding: 24px 0;
+	padding: 8px 0;
+	margin-top:20px;
 	margin-bottom: 4px;	
 }
 .slogan-wrap .slogan {
@@ -950,7 +954,7 @@ li.default-menu {
 /* =Content
 ----------------------------------------------- */
 #main {
-	padding: 50px 0 10px;
+	padding: 20px 0 10px;
 }
 #main select {
 	background-color: #F9F9F9;
@@ -2097,10 +2101,12 @@ ul.default-wp-page li a:active {
     	padding-bottom: 10px;
 	}
 	#branding {
+		/* commented out by Brian
 		margin-top: 10px;	
+		*/
 	}
 	.hgroup-wrap {
-	   padding-bottom: 25px;
+	   padding-bottom: 20px;
 	   padding-top: 0;
 	}
 	.hgroup-right {
@@ -2159,7 +2165,7 @@ ul.default-wp-page li a:active {
 		margin: 10px auto 0;
 	}
 	#main {
-    	padding-top: 40px;
+    	padding-top: 15px;
 	}
 	.post-featured-image { 
 		margin-bottom: 15px;
@@ -2262,10 +2268,11 @@ ul.default-wp-page li a:active {
 	   width: 100%;
 	}
 	#branding {
-		margin-top: 20px;	
+		/* commented out by Brian
+		margin-top: 20px;	*/
 	}
 	.hgroup-wrap {
-    	padding-bottom: 30px;
+    	padding-bottom: 20px;
 	}
 	.hgroup-right {
 		margin-top: 37px;
