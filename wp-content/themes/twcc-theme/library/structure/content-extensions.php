@@ -225,7 +225,7 @@ function attitude_theloop_for_page() {
 
   			do_action( 'attitude_before_comments_template' ); 
 
-         comments_template(); 
+        // comments_template(); 
 
          do_action ( 'attitude_after_comments_template' );
 

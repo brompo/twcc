@@ -54,6 +54,7 @@ blockquote, q {
 }
 a img {
 	border: 0;
+	height:390px;
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
