@@ -41,7 +41,8 @@ add_action( 'attitude_footer', 'attitude_footer_info', 30 );
  * function to show the footer info, copyright information
  */
 function attitude_footer_info() {         
-   $output = '<div class="copyright">'.__( 'Copyright &copy;', 'attitude' ).' '.'[the-year] [site-link]'.' '.__( 'Theme by:', 'attitude' ).' '.'[th-link]'.' '.__( 'Powered by:', 'attitude' ).' '.'[wp-link] '.'</div><!-- .copyright -->';
+   $output = '<div class="copyright">'.__( 'Copyright &copy;', 'attitude' ).' '.'[the-year] [site-link]'.' Created by Studio19'.'</div><!-- .copyright -->';
+   //$output = '<div class="copyrigh">'."Created by Studio19".'</div><!-- .copyright -->';
    echo do_shortcode( $output );
 }
 
