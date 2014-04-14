@@ -1051,9 +1051,9 @@ li.default-menu {
 	border-top: 1px solid #eaeaea;
 }
 .page-title-wrap {
-	background-color: #F9F9F9;
+	/*background-color: #F9F9F9;
 	border-bottom: 1px solid #EAEAEA;
-	padding: 20px 0; 
+	padding: 20px 0; */
 }
 .page-title {
 	font-size: 24px;
@@ -1070,6 +1070,12 @@ li.default-menu {
 .entry-header .entry-meta {
 	
 }
+#primarycontact{
+	float: left;
+	margin-left: 3.06%;
+	width:100%;
+}
+
 .entry-header {
 }
 .entry-title {

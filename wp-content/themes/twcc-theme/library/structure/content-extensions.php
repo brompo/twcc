@@ -878,7 +878,7 @@ function attitude_display_contact_page_template_content() {
 
 			do_action( 'attitude_before_post' );
 ?>
-	<div id="primary" class="no-margin-left">
+	<div id="primarycontact" class="no-margin-left contact">
 		<div id="content">
 
 		  			<?php do_action( 'attitude_before_post_content' ); ?>
@@ -903,7 +903,7 @@ function attitude_display_contact_page_template_content() {
 
 		  			do_action( 'attitude_before_comments_template' ); 
 
-		         comments_template(); 
+//		         comments_template(); 
 
 		         do_action ( 'attitude_after_comments_template' );
 
@@ -919,10 +919,11 @@ function attitude_display_contact_page_template_content() {
 		   ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
+<!--
 	<div id="secondary">
-		<?php get_sidebar( 'contact-page' ); ?>
-	</div><!-- #secondary -->
+		<?php //get_sidebar( //'contact-page' ); ?>
+	</div>
+ #secondary -->
 <?php		   
 }
 
