@@ -78,7 +78,7 @@ body {
 	background-color: #fbfbfb;
 }
 .wrapper {
-	max-width: 1038px;
+	max-width: 961px;
 	margin: 0 auto;
 	/*Edited by Brian
 	background-color: #fff;
@@ -794,6 +794,8 @@ li.default-menu {
 	padding: 8px 0;
 	margin-top:20px;
 	margin-bottom: 4px;	
+	padding-left:15px;
+	padding-right:15px;
 }
 .slogan-wrap .slogan {
 	font-size: 24px;	
