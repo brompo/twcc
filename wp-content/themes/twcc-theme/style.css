@@ -175,6 +175,7 @@ hr {
 /* Text elements */
 p {
 	margin-bottom: 15px;
+	font-family:Verdana;
 }
 strong {
 	font-weight: bold;

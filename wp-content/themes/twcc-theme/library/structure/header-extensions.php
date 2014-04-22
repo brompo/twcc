@@ -429,7 +429,7 @@ function attitude_featured_post_slider() {
 		}
 		
 		$attitude_featured_post_slider .= '
-		<section class="featured-slider"><div class="slider-cycle">';
+		<section class="featured-slider"><div id="featured-slide" class="slider-cycle">';
 			$get_featured_posts = new WP_Query( array(
 				'posts_per_page' 			=> $options[ 'slider_quantity' ],
 				'post_type'					=> array( 'post', 'page' ),
